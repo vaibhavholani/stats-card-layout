@@ -1,0 +1,78 @@
+@import url('https://fonts.google.com/specimen/Inter');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body {
+    background: black;
+    font-family: "Inter", "Lexend Deca";
+    font-size: 1rem;
+    color: white;
+    text-align: start;
+}
+h1 {
+    text-align: start;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 1080px;
+    max-height: 450px;
+}
+.stats {
+    display: flex;
+    flex-direction: column;
+    background: rgb(27, 26, 54);
+    max-width: 475px;
+    min-height: 200px;
+    border-radius: 5px 0px 0px 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.numbers {
+    display: flex;
+    gap: 10vw;
+    justify-content: space-between;
+}
+
+.purple {
+    color: rgb(170, 92, 219);
+}
+
+
+.off-white {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lexend {
+    font-family: 'Lexend Deca', 'sans-serif';
+}
+
+.small-text {
+    font-size: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+h3 {
+    margin-bottom: 5px;
+    text-align: start;
+}
+
+.left {
+    text-align: start;
+}
+
+.super {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    min-height: 325px;
+}
+
