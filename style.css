@@ -109,21 +109,32 @@ h3 {
 
 @media (max-width: 850px) {
 
+    body {
+        height: auto;
+    }
+
     .container {
         flex-direction: column-reverse;
-        min-height: max(80vh, 900px);
+        height: auto;
+        margin: 10px 0px;
+        width: 80%;
+        min-width: 0px;
     }
 
     .right {
-        height: 40%;
-        min-width: 200px;
+        height: 230px;
+        width: 100%;
         background: linear-gradient(0, var(--accent-trans), var(--accent-trans)), url("images/image-header-mobile.jpg");
         background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         border-radius: 10px 10px 0 0;
     }
 
     .left {
+        height: auto;
         padding: 0 20px;
+        width: 100%;
         border-radius: 0 0 10px 10px;
     }
 
