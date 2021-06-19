@@ -78,6 +78,7 @@ h3 {
     display: flex;
     width: 100%;
     gap: 20%;
+    row-gap: 20%;
 }
 
 .stat-val {
@@ -105,7 +106,7 @@ h3 {
 
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
 
     .container {
         flex-direction: column-reverse;
