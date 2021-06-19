@@ -65,6 +65,8 @@ h3 {
     border-radius:  0 10px 10px 0; 
     background: linear-gradient(0, var(--accent-trans), var(--accent-trans)), url("images/image-header-desktop.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -109,11 +111,12 @@ h3 {
 
     .container {
         flex-direction: column-reverse;
-        min-height: 80vh;
+        min-height: max(80vh, 900px);
     }
 
     .right {
         height: 40%;
+        min-width: 200px;
         background: linear-gradient(0, var(--accent-trans), var(--accent-trans)), url("images/image-header-mobile.jpg");
         background-size: cover;
         border-radius: 10px 10px 0 0;
